@@ -18,6 +18,7 @@ function App() {
     setTentativas(1);
     min = 0;
     max = 300;
+    setGanhou(<h3>Tentando acertar...</h3>);
     setChute(Math.trunc((min + max) / 2));
   };
 
